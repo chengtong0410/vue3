@@ -130,6 +130,7 @@
           // fix can't select the same excel
           inputRefDom.value = '';
         }
+
         await readerData(rawFile);
       }
 

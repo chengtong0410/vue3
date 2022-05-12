@@ -384,6 +384,9 @@
       label: '下拉本地搜索',
       helpMessage: ['ApiSelect组件', '远程数据源本地搜索', '只发起一次请求获取所有选项'],
       required: true,
+      helpComponentProps: {
+        color: '#f00',
+      },
       slot: 'localSearch',
       colProps: {
         span: 8,
